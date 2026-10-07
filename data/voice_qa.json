@@ -1,0 +1,69 @@
+{
+ "model": "faster-whisper base.en (float32, local; int8 decodes garbage on this CPU build)",
+ "voice": "en_US-ryan-high",
+ "sentences": 12,
+ "words": 230,
+ "wer": 0.2,
+ "rows": [
+  {
+   "text": "Cathie Wood and Brett Winton on how fast A.I. revenue is actually growing.",
+   "heard": "Kathy Wood and Brett Wynton on How Fast AI Revenue is actually growing.",
+   "wer": 0.154
+  },
+  {
+   "text": "Dr. Alex Wissner-Gross's roadmap for how digital twins of your own cells.",
+   "heard": "Dr. Alex Wissner-Grosses Roadmap for how digital twins of your own cells.",
+   "wer": 0.077
+  },
+  {
+   "text": "Moonshots with Peter Diamandis. New today: 2 shorts.",
+   "heard": "Moon shots with Peter Diamandis.  New today, two shorts.",
+   "wer": 0.375
+  },
+  {
+   "text": "The Ringer’s Bill Simmons is joined by Cousin Sal after the Lion-Panthers game to react to the game and to recap the rest of Week 4.",
+   "heard": "The Ringers Bill Simmons is joined by Cousin Sal after the Lion Panthers game to react  to the game and to recap the rest of week 4.",
+   "wer": 0.071
+  },
+  {
+   "text": "Mike Tomlin is shining as a TV analyst on ‘SNF’.",
+   "heard": "Mike Tomlin is shining as a TV analyst on SNF.",
+   "wer": 0.0
+  },
+  {
+   "text": "The mates sit down with Emad Mostaque to discuss the shifting debate around A.I. safety, whether we can still “win safely,” the case for A.I. optimism, Elon Musk’s vision for abundance and universal high income, Anthropic’s reported 2 trillion dollar IPO ambitions, and the White House’s proposed A.I. accord.",
+   "heard": "The maids sit down with the madmost act it has caused.  There's often debate around AI safety.  What do we can still win safely?  The case for Indatai.optimism.  Alon must do into their abundance in universal high income.  And the office reported two trillion dollar IPO ambitions, and the White House's repose  AI accord.",
+   "wer": 0.481
+  },
+  {
+   "text": "Musk companies: 2 items, including Can We Still Build A.I. Safely? The White House Thinks So, Moonshots number 298.",
+   "heard": "Musk companies, two items including can we still build AI?  Saitley?  The White House thinks so, moon shots number 298.",
+   "wer": 0.211
+  },
+  {
+   "text": "Bill Simmons and The Ringer: nothing new since yesterday's show.",
+   "heard": "Bill Simmons and the Ringer.  Nothing new since yesterday's show.",
+   "wer": 0.0
+  },
+  {
+   "text": "By the numbers: the most-watched new upload, as of the last feed check, has 200,849 views. That's Recursive's 670 million dollar Bet on Self-Improving A.I., Sonnet 5.5 Hits 70%, Elon Co-Leads Pentagon Push episode 299.",
+   "heard": "By the numbers, the most watched new upload, as of the last feed check, has 200,849 views.  That's Recursors $670 million bet on self-improving AI.  Sonnet 5.5 hits 70%.  Alon Colleen's Pentagon Push Episode 299.",
+   "wer": 0.125
+  },
+  {
+   "text": "Dr. Alex Wissner-Gross puts a real timeline on P versus NP.",
+   "heard": "Doctor Alex Whistner-Gross puts a real timeline on P vs. NP",
+   "wer": 0.25
+  },
+  {
+   "text": "Dave says one simple formula has a \"100% success rate.\" Tag your co-founders.",
+   "heard": "Dave says one simple formula has a 100% success rate tag your co-founders.",
+   "wer": 0.0
+  },
+  {
+   "text": "Good morning, Boyd. This is Pods Radio for Monday, October 5.",
+   "heard": "Good morning, boy, this is PODS Radio for Monday, October 5.",
+   "wer": 0.091
+  }
+ ]
+}

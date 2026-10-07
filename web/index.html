@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>Pods Radio</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2305070d'/%3E%3Ccircle cx='32' cy='34' r='9' fill='%23f87171'/%3E%3Cpath d='M16 50a22 22 0 0 1 0-32M48 18a22 22 0 0 1 0 32M22 44a14 14 0 0 1 0-20M42 24a14 14 0 0 1 0 20' stroke='%235eead4' stroke-width='3.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+</head>
+<body>
+<canvas id="sky"></canvas>
+<div id="app">
+  <header id="top">
+    <div class="brand">
+      <div class="mark"><svg viewBox="0 0 64 64"><circle cx="32" cy="34" r="8" fill="currentColor" class="core"/><path d="M15 51a23 23 0 0 1 0-34M49 17a23 23 0 0 1 0 34M22 44a14 14 0 0 1 0-20M42 24a14 14 0 0 1 0 20" stroke="var(--cyan)" stroke-width="3.6" fill="none" stroke-linecap="round"/></svg></div>
+      <div><div class="brand-name">PODS RADIO</div><div class="brand-sub mono">AUTO-PRODUCED FROM BOYD'S WATCHED FEEDS</div></div>
+    </div>
+    <div id="onair" class="onair mono"><span class="lamp"></span>ON AIR</div>
+    <div id="meta" class="meta mono"></div>
+  </header>
+
+  <main id="main">
+    <section id="deck" class="panel">
+      <div id="hero" class="hero"></div>
+      <div class="wavewrap">
+        <div id="chapMarks" class="chapmarks"></div>
+        <canvas id="wave"></canvas>
+        <div id="hoverT" class="hovert mono"></div>
+      </div>
+      <div class="transport">
+        <div class="times mono"><span id="tCur">0:00</span><span class="sep">/</span><span id="tDur">0:00</span></div>
+        <div class="btns">
+          <button id="bPrevCh" class="b" title="Previous chapter ([)"><svg viewBox="0 0 24 24"><path d="M6 5h2v14H6zM20 5v14L9 12z"/></svg></button>
+          <button id="bBack" class="b" title="Back 15 s (←)"><span class="mono">−15</span></button>
+          <button id="bPlay" class="play" title="Play / pause (space)"><svg class="i-play" viewBox="0 0 24 24"><path d="M7 4v16l13-8z"/></svg><svg class="i-pause" viewBox="0 0 24 24"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg></button>
+          <button id="bFwd" class="b" title="Forward 30 s (→)"><span class="mono">+30</span></button>
+          <button id="bNextCh" class="b" title="Next chapter (])"><svg viewBox="0 0 24 24"><path d="M16 5h2v14h-2zM4 5v14l11-7z"/></svg></button>
+        </div>
+        <div class="right">
+          <button id="bSpeed" class="chipb mono" title="Speed">1×</button>
+          <canvas id="vu" width="180" height="34"></canvas>
+        </div>
+      </div>
+      <div id="caption" class="caption"><div class="prev"></div><div class="cur"></div></div>
+      <div id="chapters" class="chapters"></div>
+    </section>
+    <aside id="notesWrap" class="panel">
+      <div class="tabs"><button data-tab="notes" class="on">SHOW NOTES</button><button data-tab="script">SCRIPT</button><button data-tab="week">EARLIER THIS WEEK</button><button data-tab="about">ABOUT</button></div>
+      <div id="tabBody" class="tabbody"></div>
+    </aside>
+  </main>
+  <section id="archive" class="panel"><div class="ph-t mono"><span class="dot"></span>EPISODE ARCHIVE</div><div id="eps" class="eps"></div></section>
+  <audio id="audio" preload="metadata"></audio>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

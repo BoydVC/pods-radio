@@ -1,0 +1,166 @@
+{
+ "episodes": [
+  {
+   "date": "2026-10-07",
+   "title": "Pods Radio \u00b7 Wednesday, October 7",
+   "duration": 359.6,
+   "audio": "pods-radio-2026-10-07.mp3",
+   "bytes": 2158272,
+   "counts": {
+    "youtube": 7,
+    "podcast": 0,
+    "channels": 4,
+    "videos": 0,
+    "shorts": 7
+   },
+   "voice": "en_US-ryan-high",
+   "words": 809
+  },
+  {
+   "date": "2026-10-06",
+   "title": "Pods Radio \u00b7 Tuesday, October 6",
+   "duration": 404.93,
+   "audio": "pods-radio-2026-10-06.mp3",
+   "bytes": 2430361,
+   "counts": {
+    "youtube": 8,
+    "podcast": 1,
+    "channels": 3,
+    "videos": 1,
+    "shorts": 7
+   },
+   "voice": "en_US-ryan-high",
+   "words": 909
+  },
+  {
+   "date": "2026-10-05",
+   "title": "Pods Radio \u00b7 Monday, October 5",
+   "duration": 393.05,
+   "audio": "pods-radio-2026-10-05.mp3",
+   "bytes": 2359046,
+   "counts": {
+    "youtube": 2,
+    "podcast": 1,
+    "channels": 1,
+    "videos": 0,
+    "shorts": 2
+   },
+   "voice": "en_US-ryan-high",
+   "words": 873
+  },
+  {
+   "date": "2026-10-04",
+   "title": "Pods Radio \u00b7 Sunday, October 4",
+   "duration": 395.87,
+   "audio": "pods-radio-2026-10-04.mp3",
+   "bytes": 2375974,
+   "counts": {
+    "youtube": 6,
+    "podcast": 1,
+    "channels": 3,
+    "videos": 1,
+    "shorts": 5
+   },
+   "voice": "en_US-ryan-high",
+   "words": 833
+  },
+  {
+   "date": "2026-10-03",
+   "title": "Pods Radio \u00b7 Saturday, October 3",
+   "duration": 408.31,
+   "audio": "pods-radio-2026-10-03.mp3",
+   "bytes": 2450581,
+   "counts": {
+    "youtube": 9,
+    "podcast": 1,
+    "channels": 3,
+    "videos": 2,
+    "shorts": 7
+   },
+   "voice": "en_US-ryan-high",
+   "words": 919
+  },
+  {
+   "date": "2026-10-02",
+   "title": "Pods Radio \u00b7 Friday, October 2",
+   "duration": 390.55,
+   "audio": "pods-radio-2026-10-02.mp3",
+   "bytes": 2344000,
+   "counts": {
+    "youtube": 9,
+    "podcast": 1,
+    "channels": 3,
+    "videos": 0,
+    "shorts": 9
+   },
+   "voice": "en_US-ryan-high",
+   "words": 884
+  },
+  {
+   "date": "2026-10-01",
+   "title": "Pods Radio \u00b7 Thursday, October 1",
+   "duration": 427.65,
+   "audio": "pods-radio-2026-10-01.mp3",
+   "bytes": 2566565,
+   "counts": {
+    "youtube": 9,
+    "podcast": 1,
+    "channels": 3,
+    "videos": 2,
+    "shorts": 7
+   },
+   "voice": "en_US-ryan-high",
+   "words": 966
+  }
+ ],
+ "builtAt": "2026-10-07T17:09:03-04:00",
+ "coverage": {
+  "moon:rss": {
+   "start": "2022-10-04T01:11:40+00:00",
+   "end": "2026-10-06T10:49:49.046384+00:00",
+   "gaps": []
+  },
+  "bill:rss": {
+   "start": "2015-09-25T16:27:20+00:00",
+   "end": "2026-10-06T10:49:01.118613+00:00",
+   "gaps": []
+  },
+  "jesse:atom": {
+   "start": "2026-08-30T18:56:42+00:00",
+   "end": "2026-10-07T10:48:43.755185+00:00",
+   "gaps": []
+  },
+  "bill:atom": {
+   "start": "2026-09-21T21:42:51+00:00",
+   "end": "2026-10-07T10:48:44.075184+00:00",
+   "gaps": []
+  },
+  "allin:atom": {
+   "start": "2026-09-21T21:04:44+00:00",
+   "end": "2026-10-07T10:48:43.375187+00:00",
+   "gaps": []
+  },
+  "moon:atom": {
+   "start": "2026-09-29T20:04:49+00:00",
+   "end": "2026-10-07T10:48:43.543186+00:00",
+   "gaps": []
+  }
+ },
+ "sources": [
+  "/workspace/feed_allin.xml",
+  "/workspace/feed_bill.xml",
+  "/workspace/feed_jesse.xml",
+  "/workspace/feed_moon.xml",
+  "/workspace/pods-rss/allin.xml",
+  "/workspace/pods-rss/bill.xml",
+  "/workspace/pods-rss/jesse.xml",
+  "/workspace/pods-rss/moonshots.xml",
+  "/workspace/pods/allin.xml",
+  "/workspace/pods/bill.xml",
+  "/workspace/pods/bill_megaphone.xml",
+  "/workspace/pods/billpod.xml",
+  "/workspace/pods/jesse.xml",
+  "/workspace/pods/moonshots.xml",
+  "/workspace/pods/mspod.xml"
+ ]
+}
