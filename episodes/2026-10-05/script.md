@@ -4,7 +4,7 @@ Window: 2026-10-04T07:00:00-04:00 → 2026-10-05T07:00:00-04:00 · voice en_US-r
 
 ## [0:00] Cold open
 
-Good morning, Boyd. This is Pods Radio for Monday, October 5.
+Good morning, Alex. This is Pods Radio for Monday, October 5.
 
 Since yesterday's show: 2 new uploads on 1 of your 4 watched channels, plus 1 new podcast episode.
 

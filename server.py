@@ -26,7 +26,7 @@ def podcast_feed(host):
 <enclosure url="{base}/episodes/{m['date']}/{x(e['audio'])}" length="{e['bytes']}" type="audio/mpeg"/></item>""")
     return f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"><channel><title>Pods Radio</title><link>{base}/</link>
-<description>Auto-produced daily show from the feeds Boyd's Pods bot watches. Feed titles, dates and descriptions only.</description><language>en-us</language>
+<description>Auto-produced daily show from the feeds Alex's Pods bot watches. Feed titles, dates and descriptions only.</description><language>en-us</language>
 {''.join(items)}</channel></rss>"""
 
 

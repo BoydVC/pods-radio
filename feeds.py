@@ -1,4 +1,4 @@
-"""Load every feed snapshot Boyd's Pods bot keeps (read-only) and merge them into one item list.
+"""Load every feed snapshot Alex's Pods bot keeps (read-only) and merge them into one item list.
 
 Sources (never modified):
   /workspace/feed_*.xml                latest YouTube Atom snapshots (15 newest per channel)

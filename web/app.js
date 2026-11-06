@@ -135,7 +135,7 @@
     const e = S.cur, c = e.counts;
     const vids = c.videos ?? 0, shorts = c.shorts ?? 0, pods = c.podcast ?? 0;
     setHTML($("#hero"), `<div><div class="kicker mono">DAILY EPISODE · ${esc(short(e.date)).toUpperCase()}</div><h1>${esc(dayName(e.date))}</h1>
-      <div class="sub">What's new on Boyd's four watched channels, read straight from the feeds. ${mmss(e.duration)} · ${e.words} words</div></div>
+      <div class="sub">What's new on Alex's four watched channels, read straight from the feeds. ${mmss(e.duration)} · ${e.words} words</div></div>
       <div class="stats"><div class="stat"><div class="v">${vids}</div><div class="k">VIDEOS</div></div><div class="stat"><div class="v">${shorts}</div><div class="k">SHORTS</div></div>
       <div class="stat"><div class="v">${pods}</div><div class="k">PODCAST EPS</div></div><div class="stat"><div class="v">${c.channels ?? 0}/4</div><div class="k">CHANNELS ACTIVE</div></div></div>`);
     $("#tDur").textContent = mmss(e.duration);
@@ -192,7 +192,7 @@
     } else {
       const idx = S.index || {};
       const cov = Object.entries(idx.coverage || {}).map(([k, v]) => `<tr><td>${esc(k)}</td><td>${esc(fmt(v.start, { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }))} → ${esc(fmt(v.end, { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }))} ET</td><td>${v.gaps && v.gaps.length ? v.gaps.length + " gap(s)" : "continuous"}</td></tr>`).join("");
-      h = `<div class="about"><h3>WHAT THIS IS</h3>A daily radio show auto-produced from the YouTube and podcast feeds Boyd's Pods bot watches. Each episode covers the 24 hours from 7:00 AM ET the day before to 7:00 AM ET on the episode date.
+      h = `<div class="about"><h3>WHAT THIS IS</h3>A daily radio show auto-produced from the YouTube and podcast feeds Alex's Pods bot watches. Each episode covers the 24 hours from 7:00 AM ET the day before to 7:00 AM ET on the episode date.
         <h3>THE RULE</h3>Every line comes from feed <b>titles, dates and descriptions</b>. Nothing is invented: no transcripts, no guesses about what was said. Sponsor reads, links and credits are stripped from descriptions. A quiet channel is reported as quiet.
         <h3>HOW IT'S MADE</h3>Script <code>script.py</code> → voice <code>${esc(e.voice)}</code> via ${esc(e.engine)} → cold open, stingers and outro synthesized with <code>sox</code> → mixed in numpy → MP3 via <code>ffmpeg</code>. Waveform, chapters and captions come from the same mix.
         <h3>KNOWN GAPS</h3>Descriptions only, never transcripts. YouTube shorts often have no description, so only the title is read. Views are as of the feed snapshot. The podcast RSS snapshots stop where the table below says, so later audio-only episodes are flagged, not guessed. The Pods lens is keyword matching. Thumbnails load from YouTube, so they are blank offline.
