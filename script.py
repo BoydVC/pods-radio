@@ -168,7 +168,7 @@ def build(date, data, detail=1):
     lensy = sorted([i for i in yt if lens_tags(i)], key=lambda i: -(i["views"] or 0))
     headline = (top or jesse or lensy or sorted(yt, key=lambda i: -(i["views"] or 0)) or [None])[0]
     chans = sorted({i["channel"] for i in yt}, key=lambda k: [c["key"] for c in CHANNELS].index(k))
-    open_paras = [P((f"Good morning, Boyd. This is Pods Radio for {nice}.", []))]
+    open_paras = [P((f"Good morning, Alex. This is Pods Radio for {nice}.", []))]
     if new:
         cnt = f"{len(yt)} new upload{'s' if len(yt) != 1 else ''} on {len(chans)} of your {len(CHANNELS)} watched channels"
         if pods:

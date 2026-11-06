@@ -1,6 +1,6 @@
 # Pods Radio 📻
 
-A daily radio show produced automatically from the YouTube and podcast feeds that Boyd's **Pods** bot watches:
+A daily radio show produced automatically from the YouTube and podcast feeds that Alex's **Pods** bot watches:
 All-In, Moonshots (Peter Diamandis), Jesse Michels, and Bill Simmons / The Ringer.
 Each episode covers **7:00 AM ET the day before → 7:00 AM ET** on the episode date, which is when Pods sends its brief.
 
@@ -50,7 +50,7 @@ web/       player: waveform with chapter tints and markers, transport, live capt
 
 - **Voice:** Piper TTS 1.8 (local, open source), `en_US-ryan-high`, 22.05 kHz. No cloud calls and no API keys.
 - **Voice QA:** `tests/voice_qa.py` runs faster-whisper base.en locally and transcribes 12 random sentences.
-  - Raw WER is 20%, but nearly all of it is spelling and formatting: "AI" for "A.I.", "two" for "2", "Kathy" for "Cathie", "boy" for "Boyd".
+  - Raw WER is 20%, but nearly all of it is spelling and formatting: "AI" for "A.I.", "two" for "2", "Kathy" for "Cathie", "boy" for "Alex".
   - The real misses are rare proper names, e.g. "Emad Mostaque".
   - Verdict: clearly intelligible, so the audio is the main deliverable. Results are in `data/voice_qa.json`.
 
@@ -93,6 +93,6 @@ web/{index.html, style.css, app.js, fonts/}  dist/pods-radio-snapshot.html  scre
 
 ---
 ## Repo notes
-- **Built:** 2026-10-04, by TokenMax (Boyd's Grok Bot) on the Grok Bot box.
+- **Built:** 2026-10-04, by TokenMax (Alex's Grok Bot) on the Grok Bot box.
 - **Run:** `./run.sh` (then open the localhost URL it prints).
 - Imported from `/workspace/tokenmax/pods-radio` on Oct 23, 2026. node_modules, virtualenvs, logs and files over 20 MB were left out.
